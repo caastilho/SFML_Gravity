@@ -1,3 +1,4 @@
 others/bin
 others/build
 build.sh
+.gitignore
