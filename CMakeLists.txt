@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.19)
 
 # Create project 
 project (
-    FlockSimulation
+    WarGame
     VERSION 1.0.0
 )
 

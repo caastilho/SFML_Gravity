@@ -1,4 +1,4 @@
-others/bin
-others/build
-build.sh
 .gitignore
+build.sh
+others/build
+others/bin

@@ -3,13 +3,20 @@
 #include <cmath>
 
 
+// Get distance between two vectors
 float getDistance(sf::Vector2f a, sf::Vector2f b);
-float getMagnitude(sf::Vector2f source);
-float getDotProduct(sf::Vector2f a, sf::Vector2f b);
-double getHeadingAngle(sf::Vector2f source);
-double getAngleBetween(sf::Vector2f a, sf::Vector2f b);
 
+// Get magnitude from a vector
+float getMagnitude(sf::Vector2f source);
+
+// Get vector angle representation
+float getAngle(sf::Vector2f source);
+
+// Set vector's magnitude
 sf::Vector2f setMagnitude(sf::Vector2f source, float newMagnitude);
-sf::Vector2f fromAngle(float angle);
+
+// Normalize vector
 sf::Vector2f normalize(sf::Vector2f source);
+
+// Constrain vector
 sf::Vector2f constrain(sf::Vector2f source, float maximum);
