@@ -6,10 +6,14 @@
 Window::Window(int width, int height, const char* name)
 {
     
+    // Setup render window settings
+    sf::ContextSettings settings;
+    settings.antialiasingLevel = 4;
+    
     // Create "RenderWindow" object
     sf::VideoMode shape(width, height);
     int style = sf::Style::Close | sf::Style::Titlebar;
-    renderer = new sf::RenderWindow(shape,  name, style);    
+    renderer = new sf::RenderWindow(shape,  name, style, settings);
     
 }
 
